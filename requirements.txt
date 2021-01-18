@@ -1,7 +1,6 @@
-pandasql
 pandas
+pandasql
 numpy
 seaborn
 matplotlib
 plotly
-socket
