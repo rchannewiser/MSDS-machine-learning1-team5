@@ -1,0 +1,20 @@
+Attribute ,Type of data ,Meaning 
+stars,Float,"Stars are in a scale of 1 to 5 and it indicates the user's experience at the restaurant.1 Star means the customer had bad experience, 5 means the customer had a good experience "
+rating_category,int,Indicates the business category the customer will rate
+RestaurantsPriceRange2,float ,Indicates the cost of food at the restaurant 
+ city_state ,object,Indicates the Location where the restaurant is located
+ BusinessAcceptsCreditCards,boolean,Indiates whether the restaurants does accept credit cards 
+ Beauty & Spas,boolean,Indicates whether the restaurant is near beauty and spas
+parking_lot,boolean,Indiates whether the business provides parking for customers 
+review_count ,integer,Indicates the count of reviews per business 
+zip3 ,object,Indicates the zipcode where the business is located 
+ cool_count,integer,"Number of yelp users who found the review cool, the user votes on a review to indicate whether they found it useful, funny or cool "
+ Restaurants,boolean,Business name 
+review_word_count,float,Indicates the average reviews for the busines 
+checkin_count ,float,Number of checkins per business
+review_count ,integer,Number of reviews per business
+ useful_count,integer,"Number of yelp users who found a review useful.  the user votes on a review to indicate whether they found it useful, funny or cool "
+cool_count,integer,"Number of yelp users who found a review cool.  the user votes on a review to indicate whether they found it useful, funny or cool "
+funny_count,integer,"Number of yelp users who found a review funny.  the user votes on a review to indicate whether they found it useful, funny or cool "
+ text,float,The actual thank you notes customers left 
+  is_open,boolean,Indicates whether a restaurants is open for business or closed 
